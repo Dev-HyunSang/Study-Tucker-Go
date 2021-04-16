@@ -4,3 +4,4 @@
 
 ## 공부하면서 참고한 내용들
 - [**Basic types**](https://golang.org/ref/spec)
+- [**Package fmt / Formatter**](https://golang.org/pkg/fmt/)
