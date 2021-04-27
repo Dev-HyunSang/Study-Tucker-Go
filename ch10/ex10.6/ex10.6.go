@@ -15,6 +15,4 @@ func main() {
 	default:
 		fmt.Println("My age is", age)
 	}
-
-	fmt.Println("age is", age)
 }
