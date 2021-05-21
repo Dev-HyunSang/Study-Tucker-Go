@@ -19,7 +19,7 @@ func TestIndexHandler(t *testing.T) {
 	mux := MakeWebHandler()
 	mux.ServeHTTP(res, req)
 
-	assert.Equal(http.StatusOK, res.Code) /
+	assert.Equal(http.StatusOK, res.Code)
 	data, _ := io.ReadAll(res.Body)
 	assert.Equal("Hello World", string(data))
 }
